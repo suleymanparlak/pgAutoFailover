@@ -99,7 +99,9 @@ Postgres kullanıcısından çıkalım ve aşağıdaki komutları yazalım.
  - sudo systemctl status pgautofailover
 
 
-Cluster kurulumu tamamlandı. Şimdi Monitör node’undan cluster durumuna bakalım. Bunun için Postgres kullanıcısına bağlanıyoruz.
+# Cluster kurulumu tamamlandı.
+
+Monitör node’undan cluster durumuna bakalım. Bunun için Postgres kullanıcısına bağlanıyoruz.
 
 export PGDATA=./monitor
 
